@@ -88,6 +88,12 @@ section.area-equipes {
     padding-bottom: 30px;
 }
 
+.equipe-title {
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
 .area-equipes2 {
     display: flex;
     flex-direction: row;
@@ -132,3 +138,44 @@ section.area-equipes {
 }
 
 .equipe-bio p {}
+
+section.sec-timeline {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: black;
+}
+
+.timeline-title {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.timeline {
+    border: solid 3px #ddd;
+    padding: 0px 30px;
+    border-collapse: collapse;
+    width: 75%;
+    margin: auto;
+    color: white;
+}
+
+.timeline td,
+.timeline th {
+    border: 2px solid #ddd;
+    padding: 8px;
+}
+
+.timeline td:nth-child(odd) {
+    text-align: center;
+}
+
+.timeline tr:nth-child(even) {
+    background-color: #b84b3f;
+    ;
+}
+
+.timeline tr:hover {
+    background-color: #ff4935;
+}
